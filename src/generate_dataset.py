@@ -17,6 +17,15 @@ productos = [
     "Impresora"
 ]
 
+vendedores = [
+    "Carlos Gómez",
+    "María Pérez",
+    "Juan Rodríguez",
+    "Laura Sánchez",
+    "Andrés López",
+    "Sofía Martínez"
+]
+
 categorias = {
     "Laptop": "Computadores",
     "Mouse": "Accesorios",
@@ -83,7 +92,9 @@ for _ in range(8000):
 
         "Total Venta": total,
 
-        "Método Pago": random.choice(metodos_pago)
+        "Método Pago": random.choice(metodos_pago),
+        
+        "Vendedor": random.choice(vendedores),
 
     })
 
